@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
 	<meta charset="UTF-8">
@@ -44,4 +44,3 @@ include("Logueo/login.php")
   	
 	}
 </script>
-
