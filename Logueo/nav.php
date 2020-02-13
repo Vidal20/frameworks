@@ -1,10 +1,12 @@
+<link rel=StyleSheet href="assets/css/style.css">
 <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #080000;">
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
   <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+  <a title="logo" href="index.php"><img class="logo" src="resources/logo3.png" /></a>
 
-    <a class="navbar-brand" href="index.php">Hidden brand</a>
+    
 
     <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
       <li class="nav-item ">
@@ -15,8 +17,8 @@
       </li>
     </ul>
     <form class="form-inline my-2 my-lg-0">
-        <button type="button" class="mr-sm-2" data-toggle="modal" data-target="#registro" style="background-color:#FAF9F9;">REGISTRAR</button>
-        <button type="button" data-toggle="modal" data-target="#login" style="background-color:#FAF9F9;">LOGIN</button>
+        <button type="button"  data-toggle="modal" data-target="#registro" class="register mr-sm-2">REGISTRAR</button>
+        <button type="button" data-toggle="modal" data-target="#login" class="login">LOGIN</button>
       </form>
   </div>
 </nav>

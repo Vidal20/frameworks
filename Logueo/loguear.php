@@ -16,7 +16,9 @@ if($array['contar']>0 && $usuario=='administrador'){
     $_SESSION['username'] = $usuario;
     header("location:../usuario.php");
 }else{
-    echo"datos erroneos";
+    echo '<script language="javascript">alert("juas");window.location.href="../index.php";this.close();</script>';
 }
 
 ?>
+
+

@@ -19,8 +19,14 @@ include("Logueo/nav.php")
 include("Logueo/login.php")
 ?>
 <body>
-	<h1>MI PAGINA</h1>
-
+	<div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+        <img src="resources/713.jpg" class="d-block w-100">
+    </div>
+    
+  </div>
+</div>
 </body>
 
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
