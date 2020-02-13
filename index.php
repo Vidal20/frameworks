@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <script language="javascript" type="text/javascript">
+	window.history.forward();
+    </script>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -18,16 +21,20 @@ include("Logueo/nav.php")
 <?php
 include("Logueo/login.php")
 ?>
-<body>
+<body class="box-inicio">
 	<div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active">
         <img src="resources/713.jpg" class="d-block w-100">
     </div>
-    
   </div>
 </div>
 </body>
+
+<img class="dos" src="resources/12.jpg"/>
+<img class="uno" src="resources/ventana-14347_14347.png"/>
+<img class="tres" src="resources/Puertas-de-aluminio-10.jpg"/>
+
 
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>

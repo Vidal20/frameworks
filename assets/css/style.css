@@ -2,6 +2,39 @@
     width: 200px;
     height: 45px;
 }
+.box-inicio{
+    background-color: #000000;
+}
+
+.uno{
+    width: 450px;
+    height: 500px;  
+    border-radius: 6px;
+    border: 1px solid#ffffff;
+    margin: 15px;
+    margin-top: 30px; 
+    
+    
+}
+.dos{
+    width: 400px;
+    height: 500px;  
+    border-radius: 6px;
+    border: 1px solid#ffffff;
+    margin-left: 15px;
+    margin: 15px;
+    margin-top: 30px 
+    
+}
+.tres{
+    width: 400px;
+    height: 500px; 
+    border-radius: 6px;
+    border: 1px solid#ffffff; 
+    margin: 15px;
+    margin-top: 30px 
+    
+}
 
 .about {
     width: 1519px;
