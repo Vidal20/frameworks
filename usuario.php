@@ -102,7 +102,7 @@ include("barranav.php")
 				<div class="container__img">
 					<img src="resources/12.jpg" alt="" class="img__">
 						<div class="informacion">
-							<p class="nombre_img">Ventanas</p>
+							<p class="nombre_img">Ventanass</p>
 							<a href="" class="view_informacion">Ver mas información</a>
 						</div>
 				</div>
