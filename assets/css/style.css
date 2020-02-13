@@ -2,42 +2,41 @@
     width: 200px;
     height: 45px;
 }
-.box-inicio{
+
+.box-inicio {
     background-color: #000000;
 }
 
-input.register{
+input.register {
     margin-left: 1100px;
 }
 
-.uno{
+.uno {
     width: 450px;
-    height: 500px;  
+    height: 500px;
     border-radius: 6px;
     border: 1px solid#ffffff;
     margin: 15px;
-    margin-top: 30px; 
-    
-    
+    margin-top: 30px;
 }
-.dos{
+
+.dos {
     width: 400px;
-    height: 500px;  
+    height: 500px;
     border-radius: 6px;
     border: 1px solid#ffffff;
     margin-left: 15px;
     margin: 15px;
-    margin-top: 30px 
-    
+    margin-top: 30px
 }
-.tres{
+
+.tres {
     width: 400px;
-    height: 500px; 
+    height: 500px;
     border-radius: 6px;
-    border: 1px solid#ffffff; 
+    border: 1px solid#ffffff;
     margin: 15px;
-    margin-top: 30px 
-    
+    margin-top: 30px
 }
 
 .about {
@@ -1859,27 +1858,19 @@ a.shortcut-tiles {
     font-size: 14px;
     border-radius: 40px;
     border: 1px solid#000000;
-    
 }
 
-.carrusel{
+.carrusel {
     margin-left: 90px;
 }
 
-.text-in{
-    
+.text-in {
     font-size: 25px;
     font-weight: 400;
     color: #FFFFFF;
-    
-
-
-    
     text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 15px;
-    
-
 }

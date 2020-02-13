@@ -6,7 +6,7 @@ $usuario=$_POST['usuario'];
 $clave=$_POST['clave'];
 
 $q = "SELECT COUNT(*)as contar from login where usuario = '$usuario ' and clave ='$clave ' ";
-$consulta = mysqli_query($conexion,$q);
+$consulta = mysqli_query($conexion, $q);
 $array = mysqli_fetch_array($consulta);
 
 if($array['contar']>0 && $usuario=='administrador'){
