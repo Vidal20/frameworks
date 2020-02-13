@@ -20,9 +20,26 @@ include("Logueo/nav.php")
 <?php
 include("Logueo/login.php")
 ?>
-<body>
+<body background="resources/back-acercade.png">
 
-	<img  src="resources/quienesSomos.png"  >
+<div class="box-quienes">Quienes somos?</div>
+
+		<div class="box-info">
+			<div>
+				<img class="logo-quienes" src="resources/exp.png">
+				<p class="text-quienes2">Somos una empresa 100% Chiapaneca</p>
+				<p class="text-quienes">Nuestros servicios:</p>
+				<p class="text-quienes">Cristales decorativos: </p>
+				<p class="text-quienes">Herreria Artistica</p>
+				<p class="text-quienes">Domos y estructuras</p>
+
+			</div>
+			
+		
+			
+	</div>
+
+	
 	
 
 </body>

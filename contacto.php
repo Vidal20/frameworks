@@ -18,11 +18,30 @@ include("Logueo/nav.php")
 <?php
 include("Logueo/login.php")
 ?>
-<body>
-	<!--
-	<img  class="about" src="resources/QUIENESSOMOS.JPG"/>-->
+<body background="resources/back-contacto.jpg">
+
+
 	<div class="box-contactanos">Contactanos</div>
-	
+
+		<div class="box-info">
+			<div>
+				<img class="redes" src="resources/logo-facebook.png">
+				<div class="text-box">Vidrios y Aluminios Ocozocoautla</div>
+			</div>
+			
+			<div>
+				<img class="redes" src="resources/ws-logo.png">
+				<div class="text-box">Tel: 961 208 63 65</div>
+			</div>
+			
+			<div>
+				<img class="redes" src="resources/insta-logo.png">
+				<div class="text-box">@VIDRIOSYALUM_COITA</div>
+			</div>
+			
+	</div>
+
+
 </body>
 
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
