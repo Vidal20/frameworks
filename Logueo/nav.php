@@ -18,7 +18,7 @@
     </ul>
     <form class="form-inline my-2 my-lg-0">
         <button type="button"  data-toggle="modal" data-target="#registro" class="register mr-sm-2">REGISTRAR</button>
-        <button type="button" data-toggle="modal" data-target="#login" class="login">LOGIN</button>
+        <button type="button" data-toggle="modal" data-target="#login" class="register mr-sm-2">LOGIN</button>
       </form>
   </div>
 </nav>

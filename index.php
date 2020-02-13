@@ -15,7 +15,7 @@
 	<title>INICIO</title>
 </head>
 <?php
-include("Logueo/nav.php")
+include("Logueo/nav.php") 
 ?>
 </head>
 <?php
@@ -25,15 +25,19 @@ include("Logueo/login.php")
 	<div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active">
+        <p class="text-in">Especialistas en vidrios y aluminios</p>
         <img src="resources/713.jpg" class="d-block w-100">
     </div>
   </div>
 </div>
 </body>
 
-<img class="dos" src="resources/12.jpg"/>
-<img class="uno" src="resources/ventana-14347_14347.png"/>
-<img class="tres" src="resources/Puertas-de-aluminio-10.jpg"/>
+<div class="carrusel">
+    <img class="dos" src="resources/12.jpg"/>
+    <img class="uno" src="resources/ventana-14347_14347.jpg"/>
+    <img class="tres" src="resources/Puertas-de-aluminio-10.jpg"/>
+</div>
+
 
 
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>

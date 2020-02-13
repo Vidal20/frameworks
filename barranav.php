@@ -5,13 +5,13 @@
   <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
     <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
       <li class="nav-item ">
-        <a class="nav-link" href="">Quienes Somos?</a>
+        <a class="nav-link" href="">Filtro de productos</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="">Contacto</a>
+        <a class="nav-link" href="">Carrito</a>
       </li>
       <form action='Logueo/salir.php' class="form-inline my-2 my-lg-0">
-	<input type="submit" name="sesionDestroy" value="Cerrar sesion"/>
+	<input class="register mr-sm-2" type="submit" name="sesionDestroy" value="Cerrar sesion"/>
 </form>
     </ul>
   </div>

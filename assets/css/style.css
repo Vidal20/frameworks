@@ -6,6 +6,10 @@
     background-color: #000000;
 }
 
+input.register{
+    margin-left: 1100px;
+}
+
 .uno{
     width: 450px;
     height: 500px;  
@@ -1790,4 +1794,92 @@ a.shortcut-tiles {
 .text-quienes2 {
     font-weight: 600;
     margin-top: -50px;
+}
+
+.container-user {
+    position: relative;
+    top: 20px;
+    width: 90%;
+    height: auto;
+    margin: auto;
+}
+
+.container-user .list-image-user {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.container-user .list-image-user li {
+    margin-right: 10px;
+    margin-bottom: 10px;
+    list-style: none;
+}
+
+.container-user .list-image-user li .container__img {
+    position: relative;
+    width: 350px;
+    height: 190px;
+    background: #dadfe3;
+    border-radius: 3px;
+}
+
+.container-user .list-image-user li .container__img img {
+    position: relative;
+    width: 350px;
+    height: 150px;
+    border-top-right-radius: 3px;
+    border-top-left-radius: 3px;
+}
+
+.container-user .list-image-user li .container__img .informacion {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.container-user .list-image-user li .container__img .informacion .nombre_img {
+    font-size: 16px;
+    margin-left: 8px;
+    margin-top: 12px;
+}
+
+.container-user .list-image-user li .container__img .informacion .view_informacion {
+    position: absolute;
+    right: 5px;
+    top: 4px;
+    display: block;
+    padding: 7px 10px;
+    height: 30px;
+    line-height: 12px;
+    width: auto;
+    font-size: 14px;
+    border-radius: 40px;
+    border: 1px solid#000000;
+    
+}
+
+.carrusel{
+    margin-left: 90px;
+}
+
+.text-in{
+    
+    font-size: 25px;
+    font-weight: 400;
+    color: #FFFFFF;
+    
+
+
+    
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    
+
 }
