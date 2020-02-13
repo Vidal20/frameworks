@@ -1758,3 +1758,66 @@ a.shortcut-tiles {
     font-weight: 600;
     margin-top: -50px;
 }
+
+.productos {
+    position: relative;
+    top: 60px;
+    width: 90%;
+    height: auto;
+    margin: auto;
+}
+
+.productos .lista-producto {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.productos .lista-producto li {
+    margin-right: 10px;
+    margin-bottom: 10px;
+    list-style: none;
+}
+
+.productos .lista-producto li .containerimg {
+    position: relative;
+    width: 250px;
+    height: 190px;
+    background: #FFFFFF;
+    border-radius: 3px;
+}
+
+.productos .lista-producto li .containerimg img {
+    position: relative;
+    width: 250px;
+    height: 150px;
+    border-top-right-radius: 3px;
+    border-top-left-radius: 3px;
+}
+
+.productos .lista-producto li .containerimg .informacion {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.productos .lista-producto li .containerimg .informacion .nombreimg {
+    font-size: 16px;
+    margin-left: 8px;
+}
+
+.productos .lista-producto li .containerimg .informacion .nombreimg .informacion {
+    position: absolute;
+    right: 5px;
+    top: 4px;
+    display: block;
+    padding: 6px 12px;
+    height: 15px;
+    line-height: 12px;
+    width: auto;
+    font-size: 14px;
+    border-radius: 40px;
+}
